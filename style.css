@@ -1,0 +1,55 @@
+.nav {
+    background-color: rgba(22, 30, 46, 0.753);
+}
+
+.main {
+    background-color: red;
+}
+
+.container {
+    text-align: center;
+    font-size: 18px;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    background-color: darkblue;
+}
+
+aside {
+    background-color: darkgoldenrod;
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    font-style: italic;
+    color: #29627e;
+}
+
+header h1 {
+    font-weight: 700;
+    margin: 0;
+  }
+
+  header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header {
+    padding: 20px 0;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  header p {
+    padding: 0 20px;
+    margin: 0;
+  }
