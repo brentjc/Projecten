@@ -1,5 +1,5 @@
 header {
-  background-color: #FFFFFF;
+  background-color: #000000;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -9,32 +9,39 @@ header {
 
 header h1 {
   font-weight: 700;
-  margin: 0;
-  text-align: left;
+  padding: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: right;
 }
 
 header nav {
   display: flex;
-  justify-content: flex-end;
-}
-
-header .row, footer .row {
-  display: flex;
+  margin: 0;
+  padding: 8px;
+  justify-content:right;
+  text-align: center;
   align-items: center;
+  top: auto;
 }
 
 div .container {
   background-color: white;
-  display: inline;
 }
 
 aside {
   background-color: chartreuse;
   text-align: center;
+  display: flex;
+  flex-direction:column;
+  width: 200px;
+  align-items: flex-end;
 }
 
 article {
   background-color: orange;
   text-align: center;
-  box-shadow: brown;
+  display: flex;
+  flex-direction: row;
+  width: 200px;
 }
